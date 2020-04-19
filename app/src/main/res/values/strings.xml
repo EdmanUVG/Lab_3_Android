@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lab_3_Android</string>
+    <string name="button_main">Send</string>
+    <string name="placeholder">Imagen de virus COVID-19</string>
+    <string name="text_virus">Virus</string>
+    <string name="text_sintomas">Sintomas</string>
+    <string name="text_indicaciones">Indicaciones</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_edad">Edad</string>
+    <string name="text_coronavirus">Coronavirus</string>
+
+    <string name="campo_vacio">Algun campo esta vacio!</string>
+
+    <string name="mensaje_alto_riesgo">, por tu edad estas el alto riesgo si contraes el virus</string>
+    <string name="mensaje_medio_riesgo">, por tu edad estas el alto riesgo si contraes el virus</string>
+    <string name="mensaje_bajo_riesgo">, por tu edad estas el alto riesgo si contraes el virus</string>
+    <string name="edad_fuera_rango">Ingrese edad entre 1 a 150 años</string>
+
+    <string name="article_heading">Coronavirus (COVID-19)</string>
+    <string name="article_subheading"> </string>
+    <string name="article_content"> <b>¿Qué es un coronavirus?</b> son una extensa familia de virus que pueden causar
+        enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios coronavirus
+        causan infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves.
+    <b>\n\nLa COVID-19</b> es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto el nuevo
+        virus como la enfermedad eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019.
+    <b>\n\n¿Cómo se propaga la COVID-19?</b>
+    Una persona puede contraer la COVID-19 por contacto con otra que esté infectada por el virus. La enfermedad puede propagarse de
+        persona a persona a través de las gotículas procedentes de la nariz o la boca que salen despedidas cuando una persona
+        infectada tose o exhala. Estas gotículas caen sobre los objetos y superficies que rodean a la persona, de modo que otras
+        personas pueden contraer la COVID-19 si tocan estos objetos o superficies y luego se tocan los ojos, la nariz o la boca.
+        También pueden contagiarse si inhalan las gotículas que haya esparcido una persona con COVID-19 al toser o exhalar.
+        Por eso es importante mantenerse a más de 1 metro (3 pies) de distancia de una persona que se encuentre enferma.</string>
+
+
+</resources>
