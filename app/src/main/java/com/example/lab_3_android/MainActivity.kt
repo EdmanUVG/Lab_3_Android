@@ -5,20 +5,23 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
+import androidx.databinding.DataBindingUtil
+import com.example.lab_3_android.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     var esVisible = true
+    lateinit var mainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-        setTheme(R.style.AppTheme)
-
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        val binding:ActivityMainBinding = DataBindingUtil.setContentView(
+            this, R.layout.activity_main)
+
+        binding.model = Model("Edman", "Edad")
 
         btn_indicaciones.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)

@@ -1,73 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    android:padding="16dp"
-    tools:context=".SecondActivity">
 
-    <TextView
-        android:id="@+id/article_heading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blueOrigin"
-        android:text="@string/article_heading"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:padding="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SecondActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/article_heading"
-        android:orientation="horizontal">
+        android:background="@color/white"
+        android:padding="16dp"
+        >
 
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/article_subheading"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:padding="16dp"
-                android:text="Coronavirus"
-                android:textAlignment="center"
-                android:textSize="20sp" />
-        </LinearLayout>
+        <TextView
+            android:id="@+id/article_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueOrigin"
+            android:text="@string/article_heading"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_below="@id/article_heading"
+            android:orientation="horizontal">
 
-            <ScrollView
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/article_subheading"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:padding="16dp"
+                    android:text="Covid-19"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <LinearLayout
+                <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/article"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="16dp"
-                        android:text="@string/article_content"/>
-                </LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-            </ScrollView>
+                        <TextView
+                            android:id="@+id/article"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="16dp"
+                            android:text="@string/article_content_indicaciones"/>
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 
-</RelativeLayout>
+
